@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="">
       <Routes>
-        <Route path="/" exact component={ProdList} />
+        <Route path="/" exact element= {<ProdList />}  />
         <Route path="/product/:productId" exact component={ProdDetails} />
         <Route>404 Not Found! oops</Route>
       </Routes>
